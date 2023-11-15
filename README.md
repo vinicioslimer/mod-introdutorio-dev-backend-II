@@ -13,7 +13,7 @@ docker-compose build
 Comando para utilizar o ambiente de desenvolvimento criado:
 
 ```
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 ## Visual Studio Code
@@ -45,7 +45,7 @@ Aqui estão as instruções para instalar o Visual Studio Code (VSCode) em difer
 
 ## Rodando a API Produtos utilizando o framework Django
 
-Acessar o diretório fastapi-produtos
+Acessar o diretório django-produtos
 
 ```
 cd /referencial/src/django-produtos
